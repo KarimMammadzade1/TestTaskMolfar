@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestTaskMolfar</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="good_morning">Good morning!</string>
+    <string name="daily_dose">Your daily dose of subliminals is ready</string>
+</resources>

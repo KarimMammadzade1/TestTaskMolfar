@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_subliminals"
+        android:icon="@drawable/ic_headphones"
+
+        android:title="Subliminals" />
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/ic_heart"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/navigation_journal"
+        android:icon="@drawable/ic_notes"
+        android:title="Journal" />
+
+
+</menu>
