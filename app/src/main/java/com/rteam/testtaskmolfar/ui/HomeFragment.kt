@@ -35,7 +35,7 @@ class HomeFragment:Fragment(){
         dataList.forEach { category ->
             val fragment = CategoryItemFragment()
             val bundle = Bundle()
-
+            bundle.putInt("catId",category.catId)
             fragment.arguments = bundle
             adapter!!.addFragment(fragment, category.categoryNmae)
         }
