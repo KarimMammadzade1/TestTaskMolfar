@@ -10,7 +10,9 @@
         <entry key="app/src/main/res/drawable/search_icon.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_category_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_journal.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/recycler_content_list_item.xml" value="0.25106658935546877" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3098958333333333" />
       </map>

@@ -7,6 +7,8 @@
     tools:context=".ui.CategoryItemFragment">
 <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/recyclerView"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
     android:orientation="vertical"
