@@ -10,4 +10,14 @@
         android:name="com.rteam.testtaskmolfar.ui.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/journalFragment"
+        android:name="com.rteam.testtaskmolfar.JournalFragment"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.rteam.testtaskmolfar.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
 </navigation>

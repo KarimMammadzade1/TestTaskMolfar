@@ -13,14 +13,55 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:elevation="4dp"
     android:background="@drawable/rv_rounded_bg"
     >
+   <ImageView
+       android:layout_marginTop="19dp"
+       android:layout_marginStart="19dp"
+       android:paddingBottom="19dp"
+       android:id="@+id/item_imageview"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       setImgDrawable="@{model.image}"
+       tools:src="@drawable/contentimage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
     <TextView
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/textid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/item_name"
+        android:layout_width="0dp"
+        android:text="@{model.titleText}"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/giiroy_medium"
+        android:textColor="@color/main_color"
+        android:textFontWeight="600"
+        android:textSize="16sp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item_imageview"
+        app:layout_constraintTop_toTopOf="@id/item_imageview"
+        tools:text="Female Super Model Subliminal" />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/item_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/giiroy_iight"
+        android:textColor="#8A8E9A"
+        android:textFontWeight="400"
+        android:text="@{model.descriptionText}"
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item_imageview"
+        app:layout_constraintTop_toBottomOf="@id/item_name"
+        tools:text="Become physically attractive" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
